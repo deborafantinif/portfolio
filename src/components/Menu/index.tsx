@@ -13,7 +13,7 @@ function Menu() {
         <ul>
           <li><Link to="/home">Home</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li>Technologies</li>
+          <li><Link to="/technologies">Technologies</Link></li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>

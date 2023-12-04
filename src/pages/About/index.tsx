@@ -50,6 +50,7 @@ function About() {
           </div>
         </div>
       </main>
+      <footer>Designed by Pavan MG and Coded by Debora Fantini with love</footer>
     </>
   );
 }
