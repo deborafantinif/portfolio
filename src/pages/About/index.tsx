@@ -1,4 +1,5 @@
 import Menu from "../../components/Menu"
+import Footer from "../../components/Footer"
 
 function About() {
   return (
@@ -50,7 +51,7 @@ function About() {
           </div>
         </div>
       </main>
-      <footer>Designed by Pavan MG and Coded by Debora Fantini with love</footer>
+      <Footer/>
     </>
   );
 }
