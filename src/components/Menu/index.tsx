@@ -15,7 +15,7 @@ function Menu() {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/technologies">Technologies</Link></li>
           <li>Projects</li>
-          <li>Contact</li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
       <div>

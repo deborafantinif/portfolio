@@ -10,6 +10,7 @@ function AppRoutes() {
       <Route path="/home" element={<pages.Home/>} />
       <Route path="/about" element={<pages.About/>} />
       <Route path="/technologies" element={<pages.Technologies/>} />
+      <Route path="/contact" element={<pages.Contact/>} />
       <Route path="*" element={<pages.NotFound />} />
     </Routes>
   );
