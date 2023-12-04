@@ -1,10 +1,12 @@
 import Menu from "../../components/Menu";
+import Footer from "../../components/Footer"
+import * as S from "./styles"
 
 function Technologies() {
   return (
     <>
       <Menu/>
-      <main>
+      <S.Tech>
         <h1>Technologies</h1>
         <p>Linguagens e tecnologias que eu tenho conhecimento atualmente</p>
         <div>
@@ -31,8 +33,8 @@ function Technologies() {
           <img width="100" src="https://user-images.githubusercontent.com/25181517/189715289-df3ee512-6eca-463f-a0f4-c10d94a06b2f.png" alt="Figma" title="Figma"/>
           <img width="100" src="https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png" alt="npm" title="npm"/>
         </div>
-      </main>
-      <footer>Designed by Pavan MG and Coded by Debora Fantini with love</footer>
+      </S.Tech>
+      <Footer/>
     </>
   );
 }
