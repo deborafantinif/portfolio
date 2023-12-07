@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ProjectsContent = styled.main`
-  /* border: 2px solid red; */
   width: 80%;
   margin: 100px auto;
   
@@ -18,7 +17,6 @@ export const Projects = styled.div`
 `
 
 export const Project = styled.div`
-    /* border: 2px solid violet; */
     width: 400px;
     margin-bottom: 20px;
     background-color: #fff;

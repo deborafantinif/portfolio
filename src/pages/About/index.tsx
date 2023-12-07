@@ -1,11 +1,14 @@
 import Menu from "../../components/Menu"
 import Footer from "../../components/Footer"
+import Company from "../../assets/office.png"
+import Location from "../../assets/location.png"
+import * as S from "./styles"
 
 function About() {
   return (
     <>
       <Menu/>
-      <main>
+      <S.About>
         <h1>About Me</h1>
         <p>Descobri meu amor por Tecnologia ao me deparar com a imensidão de caminhos que poderia seguir e construir a partir dela.</p> 
 
@@ -18,39 +21,45 @@ function About() {
           em gerar impacto positivo na sociedade.</p>
 
         <h2>Education</h2>
-        <div>
+        <S.Education>
           <div>
             <h3>Ciência da Computação</h3>
-            <p>Estácio</p>
+            <img src={Company} alt="Company icon" />
+            <span>Estácio</span>
+            <img src={Location} alt="Location icon" />
+            <span>EAD</span>
           </div>
           <div>
-            <p>EAD</p>
             <p>Fev 2023 - Presente (Cursando)</p>
           </div>
-        </div>
+        </S.Education>
 
-        <div>
+        <S.Education>
           <div>
             <h3>Desenvolvimento Web</h3>
-            <p>Trybe</p>
+            <img src={Company} alt="Company icon" />
+            <span>Trybe</span>
+            <img src={Location} alt="Location icon" />
+            <span>EAD</span>
           </div>
           <div>
-            <p>EAD</p>
             <p>Jul 2021 - Jan 2023 (Concluída)</p>
           </div>
-        </div>
+        </S.Education>
 
-        <div>
+        <S.Education>
           <div>
             <h3>Análise e Desenvolvimento de Sistemas</h3>
-            <p>FIAP</p>
+            <img src={Company} alt="Company icon" />
+            <span>FIAP</span>
+            <img src={Location} alt="Location icon" />
+            <span>EAD</span>
           </div>
           <div>
-            <p>EAD</p>
             <p>Fev 2021 - Dez 2020 (Interrompida)</p>
           </div>
-        </div>
-      </main>
+        </S.Education>
+      </S.About>
       <Footer/>
     </>
   );
