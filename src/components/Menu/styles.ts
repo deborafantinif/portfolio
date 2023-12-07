@@ -5,11 +5,23 @@ export const Menu = styled.div`
   display: flex;
   width: 80%;
   margin: 20px auto;
+
+  @media only screen and (max-width: 600px){
+    display: block;
+  }
 `
 
 export const Logo = styled.div`
   img {
     width: 100px;
+  }
+
+  @media only screen and (max-width: 600px){
+  text-align: center;
+  margin-left: 18px;
+    img {
+      width: 50px;
+    }
   }
 `
 
@@ -29,6 +41,15 @@ export const Links = styled.div`
   display: flex;
   justify-content: end;
   margin: auto;
+
+  @media only screen and (max-width: 600px){
+    display: block;
+
+    ul {
+      display: block;
+      text-align: center;
+    }
+  }
 `
 
 export const Icons = styled.div`
@@ -40,5 +61,9 @@ export const Icons = styled.div`
 
   img {
     width: 30px;
+  }
+
+  @media only screen and (max-width: 600px){
+    text-align: center;
   }
 `

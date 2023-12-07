@@ -15,6 +15,14 @@ export const Contact = styled.main`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media only screen and (max-width: 600px){
+    margin: 0 auto;
+
+    h1 {
+      font-size: 30px;
+    }
+  }
 `
 
 export const Minimum = styled.p`

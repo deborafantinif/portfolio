@@ -29,4 +29,12 @@ export const Home = styled.main`
     background-origin: border-box;
     background-clip: content-box, border-box;
   }
+
+  @media only screen and (max-width: 600px){
+    display: block;
+
+    h1 {
+      font-size: 50px;
+    }
+  }
 `
